@@ -4,6 +4,10 @@
     margin-top: 40px;
 }
 
+.sign-up-link {
+    text-decoration: none;
+}
+
 .login {
     
     width: 120px;
