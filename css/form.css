@@ -1,28 +1,52 @@
 .form {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 0px;
     width: 100%;
 }
 
 .form-row {
-
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 100%;
-  
+    width: 100%; 
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
 }
 
 .form-row.flex-row {
-
 }
 
 .form-row > label {
-
 }
 
 .form-row > input {
-
+    border: none;
+    color:#3A52F4;
 }
+
+.form-row > input:focus {
+    border-left: 1px solid #3A52F4;
+    outline: none;
+}
+
+.flex-row {
+    margin-top: 20px;
+    display: inline-block;
+    border: none;
+}
+
+.form-row > .remember {
+    color: #ccc;
+}
+
+.form-row > .forget {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    color: #ccc;
+}
+
 

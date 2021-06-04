@@ -4,8 +4,8 @@ body, body * {
 
 main {
     display: inline-block;
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2);
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2);
     margin-top: 20px;
 }
 
@@ -28,12 +28,12 @@ p {
 }
 
 .left-column {
-    width: 50%;
+    width: 40%;
     float: left;
 }
 
 .bottom-links {
-    
+
 }
 
 .bottom-links > p {
@@ -42,6 +42,7 @@ p {
 
 .bottom-links > a {
     margin-left: 30px;
+    text-decoration: none;
 }
 
 .bottom-links > a:first-child {
@@ -50,7 +51,7 @@ p {
 
 .right-column {
 
-    width: 50%;
+    width: 60%;
     float: right;
 }
 
