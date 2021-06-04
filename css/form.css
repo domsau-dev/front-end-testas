@@ -28,11 +28,14 @@
 }
 
 .form-row > input:focus {
+    border-left: 1px solid #3A52F4;
     outline: none;
 }
 
 .flex-row {
+    margin-top: 20px;
     display: inline-block;
+    border: none;
 }
 
 .form-row > .remember {
