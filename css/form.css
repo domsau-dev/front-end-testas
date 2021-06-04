@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+.form-row {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  
+}
+
+.form-row.flex-row {
+
+}
+
+.form-row > label {
+
+}
+
+.form-row > input {
+
+}
+
