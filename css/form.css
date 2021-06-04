@@ -16,9 +16,6 @@
     border-left: 1px solid #ccc;
 }
 
-.form-row.flex-row {
-}
-
 .form-row > label {
 }
 
@@ -28,11 +25,11 @@
 }
 
 .form-row > input:focus {
-    border-left: 1px solid #3A52F4;
+    border-left: 3px solid #3A52F4;
     outline: none;
 }
 
-.flex-row {
+.check {
     margin-top: 20px;
     display: inline-block;
     border: none;
