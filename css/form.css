@@ -17,9 +17,13 @@
 }
 
 .form-row > label {
+    padding-left: 20px;
+    padding-top: 7px;
 }
 
 .form-row > input {
+    padding-left: 20px;
+    padding-bottom: 10px;
     border: none;
     color:#3A52F4;
 }
