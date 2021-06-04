@@ -1,13 +1,31 @@
-body {
+body, body * {
 
 }
 
 main {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    margin-top: 20px;
+}
 
+.main-title {
+    font-size: 25px;
+    color: #3A52F4;
+}
+
+.main-text {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+p {
+    color: #8B8D9C;
 }
 
 .left-column {
-
+    width: 30%;
+    float: left;
 }
 
 .bottom-links {
@@ -23,6 +41,15 @@ main {
 }
 
 .right-column {
-    
+
+    width: 70%;
+    float: right;
+}
+
+img {
+    width: 100%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
