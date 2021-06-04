@@ -33,20 +33,27 @@ p {
 }
 
 .bottom-links {
-
+    margin-top: 50px;
 }
 
 .bottom-links > p {
-
+    display: inline-block;
+    color: #ccc;
 }
 
 .bottom-links > a {
     margin-left: 30px;
     text-decoration: none;
+    color: #3A52F4;
 }
 
-.bottom-links > a:first-child {
+
+.bottom-links > a:first-of-type {
     margin-left: 15px;
+}
+
+.bottom-links > a:last-of-type {
+    margin-left: 45px;
 }
 
 .right-column {
