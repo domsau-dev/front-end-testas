@@ -28,14 +28,13 @@
     color:#3A52F4;
 }
 
-.form-row:hover {
+.form-row.blue:hover {
     border-left: 3px solid #3A52F4;
 }
 
 .form-row > input:focus {
     outline: none;
 }
-
 
 .check {
     margin-top: 20px;
@@ -45,6 +44,7 @@
 
 .form-row > .remember {
     color: #ccc;
+    margin-left: -20px;
 }
 
 .form-row > .forget {
